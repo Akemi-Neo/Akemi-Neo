@@ -1,0 +1,101 @@
+body {
+    background-image: url(http://drive.google.com/uc?export=view&id=15EasFuy36Vyh4tVyFmviA4C4vpEMPRDX);
+}
+
+  
+  ul, li {
+      padding: 10px;
+      margin: 15px;
+      list-style: none;
+  }
+
+  #slide{
+    display: none;
+  }
+  
+  #header {
+    display: block;
+     margin: 4px;
+     padding: 0px;
+     min-height: 100px;
+  }
+    
+  #barra ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #barra ul li {
+    float: left;
+  }
+  
+  #barra a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 3px 26px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+  }
+  
+  #barra {
+    background-color: rgb(27, 27, 27);
+    width: 900;
+    height: 80px;
+  }
+  
+  .linea {
+    color: white;
+    padding: 15px;
+  }
+  
+  #barra a:hover {
+    color: rgb(68, 255, 183);
+    background:rgba(0, 0, 0, 0.2);
+    animation: 1s ms 1;
+  }
+  
+  @keyframes ms {
+    0% {
+      opacity: 0;
+      transform: scale(1.6);
+    }
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr {
+      background-color: rgb(231, 143, 155);
+  }
+
+  tr:nth-child {
+    background-color: rgb(137, 141, 153);
+  }
+
+  img {
+    padding: 18px;
+    vertical-align: middle;
+  }
+
+  #titulos {
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 5cm;
+    width: 10cm;
+    border-radius: 8pt;
+    background: rgb(159, 194, 226);
+  }
+
+  h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+  }
+
+/*font-family: 'Sansita Swashed', cursive;*/
